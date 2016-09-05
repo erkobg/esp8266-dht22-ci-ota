@@ -26,7 +26,7 @@ In my case it is **`.pioenvs /d1_mini`** folder
 
 
 Just copy the **`firmware.bin`** to the web server folder then update the file **`version.json`** with editor changing `"tag_name": "0.0.1",` for example to **`"tag_name": "0.0.2",`**
-
+Then on next wake up device will see that it needs to update its firmware.
 
 
 Thanks to : 
