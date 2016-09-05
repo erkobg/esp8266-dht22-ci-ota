@@ -74,7 +74,7 @@ void loop() {
         if((WiFi.status() == WL_CONNECTED)) {
 
                 Serial.println("Checking for Update. Current version: " + buildTag);
-                t_httpUpdate_return ret = ESPhttpUpdate.update("http://192.168.0.103/ota_update/firmware.php?tag=" + buildTag);
+                t_httpUpdate_return ret = ESPhttpUpdate.update("http://WEBSERVER_IP/ota_update/firmware.php?tag=" + buildTag);
 
                 switch(ret) {
                 case HTTP_UPDATE_FAILED:
