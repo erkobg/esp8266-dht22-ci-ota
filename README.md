@@ -1,11 +1,11 @@
-# esp8266-dht22-ci-ota
+# DHT22 reading - Continuus Delivery with OTA
 
 
 If you are using OTA and you want to use Deep sleep - you will come to the point where you are not able to upload your new firmware just because device is sleeping.
 
 Here is a nice and clever way to make your device ask for update when it wakes up from deep sleep.
 
-**DHT22 with  Continuus Delivery by OTA**
+**Continuus Delivery with OTA**
 
  1. The build is tagged with a version number using PlatformIO build-flag
  
