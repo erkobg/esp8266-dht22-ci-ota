@@ -21,6 +21,8 @@ Here is a nice and clever way to make your device ask for update when it woke fr
  5.  ESP then flashes the compiled `firmware.bin` OTA update using the    ESP8266httpUpdate library which is built-in to the espressif Arduino 
    tool-chain
 
+**How to upload new firmware?**
+
 **`firmware.bin`** is located `.pioenvs / board` folder.
 In my case it is **`.pioenvs /d1_mini`** folder
 
