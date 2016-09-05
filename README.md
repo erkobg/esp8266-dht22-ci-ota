@@ -20,3 +20,11 @@ In my case it is **`.pioenvs /d1_mini`** folder
 
 
 Just copy the **`firmware.bin`** to the web server folder then update the file **`version.json`** with editor changing `"tag_name": "0.0.1",` for example to **`"tag_name": "0.0.2",`**
+
+
+
+Thanks to : 
+
+ - [Squix TechBlog](http://blog.squix.org/2016/06/esp8266-continuous-delivery-pipeline-push-to-production.html)
+  and
+ - [OpenEnergyMonitor](https://blog.openenergymonitor.org/2016/06/esp8266-ota-update/)
