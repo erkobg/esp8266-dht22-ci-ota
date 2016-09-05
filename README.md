@@ -26,5 +26,6 @@ Just copy the **`firmware.bin`** to the web server folder then update the file *
 Thanks to : 
 
  - [Squix TechBlog](http://blog.squix.org/2016/06/esp8266-continuous-delivery-pipeline-push-to-production.html)
-  and
+  
+and
  - [OpenEnergyMonitor](https://blog.openenergymonitor.org/2016/06/esp8266-ota-update/)
